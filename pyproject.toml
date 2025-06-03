@@ -1,0 +1,7 @@
+[project]
+name = "sphinx-needs-experiements"
+version = "0.1.0"
+description = "Experiments with sphinx-needs"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
