@@ -1,3 +1,19 @@
 {
-    "git.useIntegratedAskPass": false
+    "git.useIntegratedAskPass": false,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "python.defaultInterpreterPath": "/home/vscode/.venv/bin/python",
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker",
+        "editor.formatOnSave": true
+    },
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4
+    }
 }
