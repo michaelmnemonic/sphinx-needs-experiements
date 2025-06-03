@@ -335,13 +335,17 @@ wheels = [
 name = "sphinx-needs-experiements"
 version = "0.1.0"
 source = { virtual = "." }
-dependencies = [
+
+[package.dev-dependencies]
+dev = [
     { name = "sphinx" },
     { name = "sphinx-needs" },
 ]
 
 [package.metadata]
-requires-dist = [
+
+[package.metadata.requires-dev]
+dev = [
     { name = "sphinx" },
     { name = "sphinx-needs" },
 ]
