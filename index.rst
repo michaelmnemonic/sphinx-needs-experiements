@@ -15,3 +15,10 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
+.. needlist::
+
+.. req:: Basic need example
+    :id: 558b5b8b-05f4-445f-b074-923fcebbdc08
+
+    A basic example of a requirement.
+
