@@ -3,6 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
 Our new car documentation
 =========================
 
@@ -10,15 +14,9 @@ Add your content using ``reStructuredText`` syntax. See the
 `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
 documentation for details.
 
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
 .. needlist::
 
 .. req:: Basic need example
-    :id: 558b5b8b-05f4-445f-b074-923fcebbdc08
+   :id: 912ef0ab-6253-45f0-af15-e0b88d511218
 
-    A basic example of a requirement.
-
+   A basic example of a requirement.
