@@ -336,11 +336,15 @@ name = "sphinx-needs-experiements"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "sphinx" },
     { name = "sphinx-needs" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "sphinx-needs" }]
+requires-dist = [
+    { name = "sphinx" },
+    { name = "sphinx-needs" },
+]
 
 [[package]]
 name = "sphinxcontrib-applehelp"
