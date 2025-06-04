@@ -3,7 +3,6 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
-
   };
 
   outputs = {
@@ -19,9 +18,13 @@
     in
       pkgs.mkShell {
         buildInputs = [
-        (pkgs.python3.withPackages (python-pkgs: [
-              python-pkgs.sphinx
-            ]))
+          pkgs.gitMinimal
+          pkgs.nil
+          pkgs.alejandra
+          (pkgs.python3.withPackages (python-pkgs: [
+            python-pkgs.sphinx
+          ]))
+        ];
       });
   };
 }
