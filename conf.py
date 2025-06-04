@@ -30,3 +30,12 @@ html_static_path = ["_static"]
 
 # uuid as id
 needs_id_regex = r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+
+needs_extra_links = [
+    {
+        "option": "required_by",
+        "incoming": "requires",  # text to describe incoming links
+        "outgoing": "required by",  # text to describe outgoing links
+        "style": "#00AA00",  # color for the link in diagrams
+    },
+]
