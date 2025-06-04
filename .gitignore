@@ -193,3 +193,5 @@ cython_debug/
 _build/
 
 github_images
+
+.direnv
