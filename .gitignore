@@ -191,3 +191,5 @@ cython_debug/
 
 # sphinx-needs build directory
 _build/
+
+github_images
