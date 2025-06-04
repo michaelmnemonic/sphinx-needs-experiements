@@ -17,12 +17,17 @@ documentation for details.
 .. needlist::
 
 .. req:: First need example
-   :id: 912ef0ab-6253-45f0-af15-e0b88d511218
+   :id: REQ_1
 
    A basic example of a requirement.
 
 .. req:: Second need example
-   :id: 9756f6f7-be97-4633-9463-96298b05fd73
-   :required_by: 912ef0ab-6253-45f0-af15-e0b88d511218
+   :id: REQ_2
+   :required_by: REQ_1
 
    A second example of a requirement.
+
+.. needservice:: github-issues
+   :query: repo:useblocks/sphinx-needs node latexpdf
+   :max_content_lines: 4
+   :id_prefix: EXAMPLE_
