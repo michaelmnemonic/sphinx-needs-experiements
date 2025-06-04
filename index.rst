@@ -16,6 +16,8 @@ documentation for details.
 
 .. needlist::
 
+.. needtable::
+
 .. req:: First need example
    :id: REQ_1
 
